@@ -1,0 +1,10 @@
+.language-toggler {
+  & .MuiButtonBase-root {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #363a43;
+    border: none;
+    padding: 8px;
+  }
+}

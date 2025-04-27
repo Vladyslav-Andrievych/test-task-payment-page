@@ -1,0 +1,28 @@
+.page {
+  min-height: 100vh;
+  display: grid;
+  grid-template:
+    'navigation payment-content language-toggler' auto
+    '. footer .' 20px / 40px minmax(320px, 420px) 40px;
+  align-items: start;
+  justify-content: space-between;
+  row-gap: 32px;
+  background-color: #fff;
+  padding: 16px 16px 40px;
+}
+
+.navigation {
+  grid-area: navigation;
+}
+
+.payment-content {
+  grid-area: payment-content;
+}
+
+.language-toggler {
+  grid-area: language-toggler;
+}
+
+.footer {
+  grid-area: footer;
+}

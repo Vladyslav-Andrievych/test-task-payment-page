@@ -1,0 +1,69 @@
+.payment-header {
+  margin-top: 10px;
+}
+
+.payment-actions {
+  display: flex;
+  flex-direction: column;
+  margin: 24px 0 0;
+
+  & .MuiButtonBase-root {
+    height: 48px;
+    font-size: 19px;
+    text-transform: capitalize;
+    color: #fff;
+    background-color: #000;
+    border-radius: 3px;
+    box-shadow: none;
+
+    & .MuiButton-startIcon {
+      width: 20px;
+      height: 20px;
+      margin: 0;
+    }
+  }
+
+  &__divider {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 30px;
+
+    & hr {
+      flex-grow: 1;
+      border: none;
+      border-bottom: 1px solid #e4e6ec;
+      margin: 0;
+    }
+
+    & span {
+      font-size: 14px;
+      font-weight: 400;
+      color: #666c7b;
+    }
+  }
+
+  &__form {
+    margin-top: 22px;
+  }
+
+  &__info {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #666c7b;
+    border: 1px solid #e4e6ec;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin: 0;
+    margin-top: 9px;
+
+    & span {
+      font-weight: 600;
+    }
+  }
+}
+
+.payment-order-info {
+  margin-top: 32px;
+}
